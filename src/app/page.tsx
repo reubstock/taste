@@ -111,7 +111,7 @@ export default function Home() {
           <span className="label">Selected work / 2026</span>
           <h2>
             Shipped <em>fast</em>.<br />
-            Worked <em>harder</em>.
+            Landed <em>harder</em>.
           </h2>
         </div>
 

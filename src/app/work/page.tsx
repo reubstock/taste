@@ -18,7 +18,7 @@ export default function WorkIndex() {
         </span>
         <h1>
           Shipped <em>fast</em>.<br />
-          Worked <em>harder</em>.
+          Landed <em>harder</em>.
         </h1>
         <p className="deck">
           Every piece on this page started as a brief and shipped to a deadline.
