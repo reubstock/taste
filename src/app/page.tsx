@@ -49,7 +49,7 @@ export default function Home() {
       <section className="hero" id="top" style={{ borderTop: "none" }}>
         <div className="hero-top">
           <div className="hero-eyebrow">
-            An independent agency, est. 2026 — New York / Mexico City / remote.
+            A concept agency — a working manifesto of how one could ship in 2026. NY / CDMX / remote.
           </div>
         </div>
 
@@ -129,7 +129,10 @@ export default function Home() {
               >
                 <div className="case-meta">
                   <span>{c.client}</span>
-                  <span>{c.kind}</span>
+                  <span className="case-meta-right">
+                    <span>{c.kind}</span>
+                    <span className="spec-chip">Spec</span>
+                  </span>
                 </div>
                 <div className="case-art">{c.art as string}</div>
                 <div className="case-stats">

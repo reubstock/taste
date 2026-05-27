@@ -8,15 +8,15 @@ export const metadata: Metadata = {
 };
 
 const bench = [
-  { name: "Mara Adeyemi", role: "Founder, Strategy" },
-  { name: "Otto Vance", role: "Founder, Creative" },
-  { name: "Liana Reyes", role: "Partner, Brand" },
-  { name: "Sam Kobayashi", role: "Partner, Production" },
-  { name: "Yusuf Marin", role: "Partner, Growth" },
-  { name: "Inez Petrova", role: "Director, Culture" },
-  { name: "Theo Walker", role: "Director, Engineering" },
-  { name: "Camille Roux", role: "Director, Operations" },
-  { name: "Sól Magnusson", role: "Resident Designer" },
+  { name: "Founder, Strategy", role: "16y · ex-network strategy lead" },
+  { name: "Founder, Creative", role: "14y · ex-independent ECD" },
+  { name: "Partner, Brand", role: "12y · ex-design studio principal" },
+  { name: "Partner, Production", role: "13y · ex-content studio EP" },
+  { name: "Partner, Growth", role: "11y · ex-platform growth lead" },
+  { name: "Director, Culture", role: "9y · ex-publishing editor" },
+  { name: "Director, Engineering", role: "12y · ex-creative tech lead" },
+  { name: "Director, Operations", role: "10y · ex-agency COO" },
+  { name: "Resident Designer", role: "8y · ex-editorial design" },
 ];
 
 const stack = [
@@ -64,13 +64,14 @@ export default function StudioPage() {
           Big <em>swing</em>.
         </h1>
         <p className="deck">
-          Nine senior humans, forty-seven agents, and a stubborn refusal to bill
-          by the hour. Here&apos;s exactly <em>how</em> that adds up.
+          How the agency would be <em>staffed</em> and stacked: nine senior
+          humans, forty-seven agents, and a stubborn refusal to bill by the
+          hour.
         </p>
         <div className="page-meta">
-          <span>Founded 2026</span>
+          <span>Spec · 2026</span>
           <span>NY · CDMX · Remote</span>
-          <span>Independent</span>
+          <span>Concept</span>
         </div>
       </header>
 
@@ -99,7 +100,7 @@ export default function StudioPage() {
 
       <section className="bench">
         <div>
-          <span className="label">The bench</span>
+          <span className="label">The bench (as spec&apos;d)</span>
           <p
             style={{
               fontFamily: "var(--serif)",
@@ -110,7 +111,7 @@ export default function StudioPage() {
               maxWidth: 280,
             }}
           >
-            Nine people. Average 14 years in the industry. The most junior person here was a creative director somewhere else.
+            Nine roles, staffed for taste over headcount. Every seat held by a senior with a decade-plus in it — typically a creative director, partner, or above somewhere else.
           </p>
         </div>
         <div className="bench-list">

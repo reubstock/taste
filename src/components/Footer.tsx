@@ -44,8 +44,12 @@ export default function Footer() {
         </div>
       </div>
 
+      <div className="foot-disclose">
+        <b>TASTE is a concept agency.</b> A working manifesto of how an agency could be built and run in 2026 — written as a site. The work is spec, the bench is illustrative, the prices are real shapes. Not a real client roster.
+      </div>
+
       <div className="foot-bottom">
-        <span>TASTE™ · MMXXVI · An independent agency.</span>
+        <span>TASTE™ · MMXXVI · A concept agency.</span>
         <span>0 hours billed.</span>
       </div>
     </footer>

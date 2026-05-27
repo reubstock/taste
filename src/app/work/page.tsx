@@ -21,14 +21,13 @@ export default function WorkIndex() {
           Landed <em>harder</em>.
         </h1>
         <p className="deck">
-          Every piece on this page started as a brief and shipped to a deadline.
-          The number under each one is the business outcome — <em>not</em> the
-          reach.
+          Spec work, shown the way <em>real</em> work should be shown: every
+          piece tied to a deadline and a number we&apos;d sign for.
         </p>
         <div className="page-meta">
-          <span>4 selected</span>
-          <span>of 23 live</span>
-          <span>2026 ytd</span>
+          <span>4 spec cases</span>
+          <span>Illustrative</span>
+          <span>v.2026.05</span>
         </div>
       </header>
 
@@ -47,7 +46,10 @@ export default function WorkIndex() {
               >
                 <div className="case-meta">
                   <span>{c.client}</span>
-                  <span>{c.kind}</span>
+                  <span className="case-meta-right">
+                    <span>{c.kind}</span>
+                    <span className="spec-chip">Spec</span>
+                  </span>
                 </div>
                 <div className="case-art">{c.art as string}</div>
                 <div className="case-stats">

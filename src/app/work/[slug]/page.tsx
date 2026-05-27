@@ -30,14 +30,35 @@ export default async function CasePage(props: PageProps<"/work/[slug]">) {
     <article className="case-page">
       <header className="case-hero">
         <div>
-          <span className="label">{c.kind}</span>
-          <h1>
+          <span className="label" style={{ display: "inline-flex", gap: 10, alignItems: "center" }}>
+            <span className="spec-chip">Spec</span>
+            <span>{c.kind}</span>
+          </span>
+          <h1 style={{ marginTop: 18 }}>
             {c.headline}{" "}
             {c.headlineHot && <em>{c.headlineHot}</em>}
           </h1>
           <p className="lede">{c.lede}</p>
+          <p
+            style={{
+              fontFamily: "var(--mono)",
+              fontSize: 11,
+              letterSpacing: ".14em",
+              textTransform: "uppercase",
+              color: "var(--ink-2)",
+              marginTop: 24,
+              maxWidth: 560,
+              lineHeight: 1.5,
+            }}
+          >
+            Illustrative scenario — a brief, a deadline, and the outcome
+            we&apos;d sign for. Not a delivered case.
+          </p>
         </div>
         <div className="meta">
+          <span>
+            Type / <b>Spec / illustrative</b>
+          </span>
           <span>
             Client / <b>{c.client}</b>
           </span>
